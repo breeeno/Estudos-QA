@@ -59,3 +59,59 @@ E não existe meio de campo, entre qualidade, tempo e dinheiro, as pessoas respo
     - Array Ortogonal:
       - Site para testar combinações de variáveis de teste:
         - 'https://pairwise.teremokgames.com/4s8/'
+
+-----------
+### Personas
+  - Persona é uma forma de tentar agir como uma outra pessoa, nesse caso, em prol de tentar testar outras maneiras de se usar a aplicação 
+    - Dar um nome, um background, uma espécie de generalização, levantando as possíveis características e hábitos do personagem.
+  
+
+----------
+### Soap Opera Scenarios 
+  - Testes devem ser engraçados e agressivos, exagerados e condensados
+  - Escrever cenários improváveis, mas possíveis
+  - Possui fase design e execução separadas
+  
+
+-----------
+### Tour 
+  - Conceito dos testes que faz uma assosiação entre os testes e um viagem a turismo, basicamente dividindo os testes em 5 áreas da cidade: 
+  - Business District:
+    - Guidebook Tour:
+      - Atrações de bolso, nos testes, isso associa ao manual da aplicação, fazendo com que o testador siga normalmente o mesmo caminho do usuário, e problemas nessa rota normalmente tem prioridade alta na fila de resolução de problemas
+    - Money Tour:
+      - A razão principal porquê a aplicação existe, é uma forma de garantir que o coração da aplicação funcione corretamente.
+    - Landmark Tour:
+      - Associado dentro da cidade como os pontos turisticos, dentro do teste podemos dizer que seriam pontos de referencia para que você pudesse se guiar dentro do uso e de seus testes.
+    - FedEX Tour:
+      - Nos testes, considere ao invés de pacotes, os dados da aplicação, considere as entradas e confirme se elas estão corretas.
+    - After-Hours Tour:
+      - Nos horários fora do padrão da aplicação, vale-se testar essas funcionalidades e ver se ocorre o funcioamento correto delas.
+    - Garbage Collector Tour:
+      - Nos testes, quando verificamos interfaces, sempre procurando os menores caminhos a ela.
+  - Historic District
+    - Bad Neighborhood Tour:
+      - Áreas que os turistas são recomendados a não entrarem, que estão infestadas de problemas, no ambiente de código, cheio de bugs, onde os testadores tem de explorar pra encontrar e nomear esses problemas
+    - Museum Tour:
+      - Códigos legados, dando atenção as funcionalidades que precisam de manunteção e observação
+    - Pior Version:
+      - Garantir que features e execuções das versões anteriores tenham sido mantidas com sucesso em refatorações.
+  - Entertainment District
+    - Supporting Actor Tour:
+      - Testar se possíveis botões e atalhos tenham seu funcionamento correto.
+    - Back Alley Tour:
+      - No teste, isso é validar as funcionalidades que são menos usadas
+    - All-Nighter Tour:
+      - Manter a aplicação aberta e observar o comportamento dela após muito tempo. 
+  - Tourism District
+    - Collectors Tour:
+      - Tentar mapear as funcionalidades e ir catalogando as funcionalidades.
+    - Lonely Businesssman Tour:
+      - Para conhecer as funcionalidades mais distantes do centro do app.
+    - Supermodel Tour:
+      - Testar e validar interfaces e suas responsividades.
+  - Hotel District 
+    - Rained-Out Tour:
+      - Iniciar operações pesadas e cancela-las logo em seguida, basicamente um teste de estresse.
+    - Couch Potato Tour:
+      - Testar funcionalidades com os campos default e com o minimo de informações possíveis.
