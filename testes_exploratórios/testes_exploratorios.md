@@ -135,3 +135,5 @@ E não existe meio de campo, entre qualidade, tempo e dinheiro, as pessoas respo
   - Também é valido válidar a responsavidade do app, tanto em telas maiores quanto em telas menores
 - Segurança:
   - Também é possível tentar realizar uma sql injection ao tentar passar informações no front end.
+-----------
+ 
