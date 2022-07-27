@@ -115,3 +115,23 @@ E não existe meio de campo, entre qualidade, tempo e dinheiro, as pessoas respo
       - Iniciar operações pesadas e cancela-las logo em seguida, basicamente um teste de estresse.
     - Couch Potato Tour:
       - Testar funcionalidades com os campos default e com o minimo de informações possíveis.
+
+--------
+### Outras estratégias
+- Shoe test:
+  - Estratégia incomum, a ideia é basicamente "espancar" o teclado com algum objeto e observar o comportamento da aplicação sobre essa ação
+- Null, Zero e Vazio:
+  - Passar dados nulos, vazios ou negativos para testar a validação de formulários da aplicação.
+- Get one, take one:
+  - Acessar a mesma instância da aplicação em dois lugares diferentes, pra ver e validar como a aplicação lida com esse comportamento.
+- Bookmark:
+  - A ideia aqui é testar as aplicações reutilizando as urls pra ver qual comportamento a aplicação vai ter
+- Sabotagem:
+  - Criar "problemas" para observar como a aplicação lida com essas ocorrências, tais como derrubar um banco, tentar realizar acessos ilegais e observar esses comportamentos.
+- Ferramentas de desenvolvedor:
+  - Modo desenvolvedor dos navegadores, tanto que é possível disparar eventos javascript direto no navegador, tais como:
+    - ```alert:'qualquer coisa'```
+  - É possível observar respostas recebidas e status code, além do html da página
+  - Também é valido válidar a responsavidade do app, tanto em telas maiores quanto em telas menores
+- Segurança:
+  - Também é possível tentar realizar uma sql injection ao tentar passar informações no front end.
