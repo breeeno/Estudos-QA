@@ -75,7 +75,7 @@ E não existe meio de campo, entre qualidade, tempo e dinheiro, as pessoas respo
 
 -----------
 ### Tour 
-  - Conceito dos testes que faz uma assosiação entre os testes e um viagem a turismo, basicamente dividindo os testes em 5 áreas da cidade: 
+  - Conceito dos testes que faz uma associação entre os testes e uma viagem a turismo, basicamente dividindo os testes em 5 áreas da cidade: 
   - Business District:
     - Guidebook Tour:
       - Atrações de bolso, nos testes, isso associa ao manual da aplicação, fazendo com que o testador siga normalmente o mesmo caminho do usuário, e problemas nessa rota normalmente tem prioridade alta na fila de resolução de problemas
