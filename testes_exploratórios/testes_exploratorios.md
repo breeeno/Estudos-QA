@@ -136,4 +136,5 @@ E não existe meio de campo, entre qualidade, tempo e dinheiro, as pessoas respo
 - Segurança:
   - Também é possível tentar realizar uma sql injection ao tentar passar informações no front end.
 -----------
- 
+ ### Ferramenta útil: 
+ - Teste & Feedback, extensão do navegador para sessões de teste.
